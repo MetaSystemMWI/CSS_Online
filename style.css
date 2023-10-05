@@ -1,0 +1,62 @@
+#green{
+    color: green;
+}
+
+
+h2{
+    color: aquamarine;
+}
+
+/* universal selector  */
+
+*{
+    color: black;
+}
+
+/* descendant selectors */
+
+ul li{
+    color: blueviolet;
+}
+
+/* class selector */
+
+.name{
+    color: brown;
+}
+
+/* id selector */
+
+#name{
+    color: coral;
+}
+
+/* CHILD SELECTOR */
+
+body > p{
+font-size: 36px;
+}
+
+/* attribute selector */
+
+input[type="text"]{
+    font-size: 40px;
+}
+
+
+/* selector
+property
+value
+
+div{border: 1px solid red;}
+selector: div, tag name 
+property: border, color, background etc, 
+value: 1px solid red, green, etc
+
+class,id: class: class_name: { . access with dot operator }
+id: id_name: { # access with # operator }
+
+class repeatly call with same 
+id just only one call but not use as a same name 
+ */
+
