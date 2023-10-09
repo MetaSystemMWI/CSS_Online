@@ -1,0 +1,33 @@
+h1{
+    background-color: #ff6347;
+    color: #e3e8e5;
+}
+h2{
+    /* #ffcc99 */
+    background-color: #fc9; 
+
+
+    /* color: #ffcc99; */
+    color: #fc9;
+}
+h3{
+    /* HSL Values */
+    /* Hue, Saturation, lightness */
+    /* hue: degree 0 - 360, 0-119 red , 120-239 green, 240 blue
+    Saturation : 0% - 100%, 0% shade of gray, and 100% full color
+    lightness: 0% - 100%, 0% black, 50% nither ligtht or dark, 100% white   */
+    /* color: hsl(0, 100%, 50%); */
+    color: hsl(300, 100%, 50%);
+    /* a: alpha 0 - 1 */
+    background-color: hsla(200, 100%,50%, 0.5);
+}
+body{
+    /* background-image: url("download.jpeg");
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: no-repeat; */
+    /* background-position: right top; */
+    /* background-attachment: fixed; */
+    /* background-attachment: scroll; */ 
+    background: #ff6347 url("download.jpeg") no-repeat right top;
+}
