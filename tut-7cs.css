@@ -1,0 +1,41 @@
+/* ul.b{
+    list-style-type: circle;
+}
+ol.c{
+    list-style-type:upper-roman;
+}
+
+table, th, td{
+    border: 1px solid black;
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: bottom;
+}
+th{
+    height: 70px;
+}
+tr:hover{
+    background-color: coral;
+} */
+
+
+/* table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+} */
+
+li{
+    /* display: inline; */
+    /* display: block; */
+    /* display: none; */
+    /* display: none;
+    visibility: hidden; */
+}
